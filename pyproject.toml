@@ -1,0 +1,13 @@
+[project]
+name = "zambia-commodity-price-forcasting-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mwale Jonathan", email = "mwalejonathan10@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+exclude-newer = "14 days"
