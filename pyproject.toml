@@ -7,7 +7,23 @@ authors = [
     { name = "Mwale Jonathan", email = "mwalejonathan10@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "joblib>=1.6.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "notebook>=7.6.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "statsmodels>=0.15.0",
+    "xgboost>=3.4.1",
+]
 
 [tool.uv]
 exclude-newer = "14 days"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.6",
+]
